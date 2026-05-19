@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Evitem que els enllaços de les caixes semblin text blau clàssic */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Colors pastel personalitzats */
+.bg-pastel-blau { background-color: #E8F0FE; color: #1A73E8; }
+.bg-pastel-groc { background-color: #FEF7E0; color: #B06000; }
+.bg-pastel-verd { background-color: #E6F4EA; color: #137333; }
+.bg-pastel-vermell { background-color: #FCE8E6; color: #C5221F; }
+
+.dashboard-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-card h6 {
+    font-size: 0.8rem;
+}
+
+/* Efecte visual en passar el ratolí per sobre de les caixes clicables */
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+}
+
+.icon-box {
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+.table-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
